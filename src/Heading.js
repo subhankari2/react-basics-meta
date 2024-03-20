@@ -1,10 +1,7 @@
 function Heading(props) {
-    return (<div>
+    return (
         <h1>Hello { props.firstName}</h1>
-        <h1>Hello { props.firstName}</h1>
-        <h1>Hello { props.firstName}</h1>
-        <h1>Hello {props.firstName}</h1>
-        </div>
+        
     )
 }
 export default Heading;

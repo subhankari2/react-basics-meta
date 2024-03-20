@@ -1,7 +1,10 @@
 import Heading from "./Heading"
 function App() {
-  return (
+  return (<div>
    <Heading firstName="Bob"/>
+   <Heading firstName="julie"/>
+   <Heading firstName="karl"/>
+   </div>
     );
 }
 
